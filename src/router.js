@@ -18,6 +18,11 @@ export default new Router({
       path: '/swiper/parallel',
       name: 'swiper',
       component: () => import('./views/parallel')
+    },
+    {
+      path: '/swiper/csdd',
+      name: 'swiper',
+      component: () => import('./views/csdd')
     }
   ]
 })

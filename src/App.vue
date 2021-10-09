@@ -6,6 +6,9 @@
       </router-link> |
       <router-link to="/swiper/parallel">
         平移
+      </router-link> |
+      <router-link to="/swiper/csdd">
+        csdd
       </router-link>
     </div>
     <router-view />
